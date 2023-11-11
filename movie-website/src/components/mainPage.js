@@ -1,5 +1,6 @@
 
 import '../App.css';
+
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import MovieCard from './movieCard';
@@ -7,8 +8,9 @@ import MovieCard from './movieCard';
 
 
 
+const API_KEY = process.env.REACT_APP_API_KEY
 
-const API_URL = 'http://www.omdbapi.com?apikey=4aea1a7d';
+const API_URL = `http://www.omdbapi.com?apikey=${API_KEY}`;
 
 
 export default function MainPage() {
