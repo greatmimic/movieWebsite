@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import MovieCard from './movieCard';
 
-// 4aea1a7d api key omdb
+
 
 
 
@@ -29,7 +29,9 @@ const isEnterPressed = (event) => {
     }
 }
 
-useEffect(() => {
+
+// could set up initial default showing of movies? 
+useEffect(() => {   
   
 }, []);
 
