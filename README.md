@@ -3,4 +3,4 @@
 
 tech stack:
 
-React, Node, JavaScript, Express
+React, Node, JavaScript
