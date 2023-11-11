@@ -4,7 +4,7 @@ import '../App.css';
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import MovieCard from './movieCard';
-
+//potentially needs movie details page
 
 
 
