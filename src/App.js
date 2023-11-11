@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<MainPage />} /> 
+          <Route path="/movieWebsite" element={<MainPage />} /> 
         </Routes>
       </Router>
     </div>
